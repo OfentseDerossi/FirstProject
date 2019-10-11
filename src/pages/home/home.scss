@@ -1,3 +1,35 @@
 page-home {
+.firstname{
+    font-weight: bold;
+    color: black;
+    text-align: center;
+    
+}
+ion-content{
+    background-image: url(../../assets/coding.png);
+    background-size: cover;
+display:flex;
+justify-content: center;
+justify-items: center;
+}
+
+// ion-item{
+//     width: 100vw;
+//     left: 200px;
+    
+// }
+// ion-list{
+//     width: 900px;
+//     left: 300px;
+    
+    
+    
+    
+// }
+// #btn{
+//     width: 300px;
+//     left: 650px;
+//     // top: 100px; 
+// }
 
 }

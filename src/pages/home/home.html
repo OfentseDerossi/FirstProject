@@ -1,14 +1,37 @@
+
 <ion-header>
   <ion-navbar>
     <ion-title>
-      Ionic Blank
+      <div class="top">
+          <h5 class="firstname">Registration</h5>
+      </div>
+      
     </ion-title>
   </ion-navbar>
 </ion-header>
 
+
 <ion-content padding>
-  The world is your oyster.
-  <p>
-    If you get lost, the <a href="http://ionicframework.com/docs/v2">docs</a> will be your guide.
-  </p>
+  
+
+    <ion-list style="align-content: center">
+
+        <ion-item>
+          <ion-label fixed class="firstname">Firstname :</ion-label>
+          <ion-input type="text" [(ngModel)]="user.name"></ion-input>
+        </ion-item>
+      
+        <ion-item>
+          <ion-label fixed class="firstname">Lastname :</ion-label>
+          <ion-input type="text" [(ngModel)]="user.lastname"></ion-input>
+        </ion-item>
+        <ion-item>
+          <ion-label fixed class="firstname">Phone-no :</ion-label>
+          <ion-input type="number" [(ngModel)]="user.Ph"></ion-input>
+        </ion-item>
+      
+      </ion-list>
+      <button (click) ="nextpage()" ion-button full id="btn">Sign_In</button>
+      
+
 </ion-content>
